@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modular Kitchen Design Guide | U.S.K International</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../src/styles.css">
+  <style>
+    html { scroll-behavior: smooth; }
+    .toc-active { color: #10b981; font-weight: bold; }
+    .sidebar-toc {
+      position: sticky;
+      top: 6rem;
+      max-height: calc(100vh - 7rem);
+      overflow-y: auto;
+    }
+    .toc-link {
+      transition: color 0.2s, font-weight 0.2s;
+    }
+    .toc-link:hover { color: #10b981; font-weight: bold; }
+    .whatsapp-float {
+      box-shadow: 0 4px 24px 0 rgba(16, 185, 129, 0.15), 0 1.5px 6px 0 rgba(16, 185, 129, 0.10);
+    }
+    .whatsapp-float:hover, .whatsapp-float:focus {
+      box-shadow: 0 8px 32px 0 rgba(16, 185, 129, 0.35), 0 3px 12px 0 rgba(16, 185, 129, 0.18);
+      transform: scale(1.12) translateY(-2px);
+    }
+    .whatsapp-tooltip {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .group:hover .whatsapp-tooltip, .group:focus .whatsapp-tooltip {
+      opacity: 1;
+      transform: translateY(-8px) scale(1.08);
+    }
+    .chat-float { position: relative; }
+    .chat-tooltip {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .group:hover .chat-tooltip, .group:focus .chat-tooltip {
+      opacity: 1;
+      transform: translateY(-8px) scale(1.08);
+    }
+    .scroll-mt-28 { scroll-margin-top: 7rem; }
+    @media (max-width: 1023px) {
+      .sidebar-toc { display: none; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Minimal Transparent Navbar with Logo Only -->
+  <nav class="bg-white/30 backdrop-blur-md shadow-none z-[100] w-full border-b border-gray-100">
+    <div class="container mx-auto px-4 py-3 flex items-center">
+      <div class="flex items-center gap-2 text-2xl font-extrabold text-green-500 tracking-tight drop-shadow-sm transition-transform duration-200 hover:scale-105 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7m-9 2v6m0 0h4m-4 0a2 2 0 01-2-2v-2a2 2 0 012-2h4a2 2 0 012 2v2a2 2 0 01-2 2m-4 0v6m4-6v6" /></svg>
+        <span>U.S.K International</span>
+      </div>
+    </div>
+  </nav>
+  <main class="container mx-auto px-2 sm:px-6 flex flex-col lg:flex-row gap-8 mt-8 mb-16 animate-fadeIn">
+    <!-- Sidebar Table of Contents -->
+    <aside class="hidden lg:block w-72 pr-2 sidebar-toc">
+      <nav class="bg-white/80 rounded-2xl shadow-lg border border-gray-100 p-6 sticky top-24">
+        <h2 class="text-lg font-bold mb-4 text-green-600">On This Page</h2>
+        <ul class="space-y-2 text-gray-700 text-base">
+          <li><a href="#intro" class="toc-link block">Introduction</a></li>
+          <li><a href="#layouts" class="toc-link block">Types of Kitchen Layouts</a></li>
+          <li><a href="#themes" class="toc-link block">Design Themes</a></li>
+          <li><a href="#comparison" class="toc-link block">Material Comparison</a></li>
+          <li><a href="#components" class="toc-link block">Kitchen Components</a></li>
+          <li><a href="#falseceiling" class="toc-link block">False Ceiling Designs</a></li>
+          <li><a href="#dimensions" class="toc-link block">Standard Dimensions</a></li>
+          <li><a href="#organization" class="toc-link block">Organization Ideas</a></li>
+          <li><a href="#safety" class="toc-link block">Safety Rules</a></li>
+          <li><a href="#vastu" class="toc-link block">Vastu Tips</a></li>
+          <li><a href="#faqs" class="toc-link block">FAQs</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- Main Content -->
+    <article class="flex-1 max-w-3xl mx-auto space-y-16">
+      <!-- Introduction -->
+      <section id="intro" class="scroll-mt-28">
+        <h1 class="text-3xl sm:text-4xl font-extrabold mb-4 text-green-600">Your Go-to Modular Kitchen Guide</h1>
+        <p class="text-lg text-gray-700 mb-6">Explore different types of layouts, ergonomics, and components to create a personalized cooking haven. This guide covers everything from kitchen types and themes to materials, organization, and Vastu tips for Indian homes.</p>
+        <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&w=900&q=80" alt="Modern Modular Kitchen" class="rounded-xl shadow-lg w-full h-64 object-cover mb-4">
+      </section>
+      <!-- Types of Kitchen Layouts -->
+      <section id="layouts" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Types of Kitchen Layouts</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&w=600&q=80" alt="Straight Kitchen" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">Straight Kitchen</h3>
+            <p class="text-gray-600 text-sm">A single-wall layout, ideal for compact homes and studios.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&w=600&q=80" alt="L-Shaped Kitchen" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">L-Shaped Kitchen</h3>
+            <p class="text-gray-600 text-sm">Classic two-sided layout, versatile for most room sizes.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&w=600&q=80" alt="Parallel Kitchen" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">Parallel Kitchen</h3>
+            <p class="text-gray-600 text-sm">Two counters facing each other for efficient workflow.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&w=600&q=80" alt="U-Shaped Kitchen" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">U-Shaped Kitchen</h3>
+            <p class="text-gray-600 text-sm">Three-sided design for maximum storage and workspace.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&w=600&q=80" alt="Island Kitchen" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">Island Kitchen</h3>
+            <p class="text-gray-600 text-sm">Central island for extra worktop, storage, and seating.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&w=600&q=80" alt="Peninsula Kitchen" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">Peninsula Kitchen</h3>
+            <p class="text-gray-600 text-sm">Three accessible sides, one end attached to a wall—great for smaller spaces.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Design Themes -->
+      <section id="themes" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Distinctive Kitchen Design Themes</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&w=600&q=80" alt="Modern Theme" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">Modern</h3>
+            <p class="text-gray-600 text-sm">Sleek, seamless, and functional with premium finishes.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Traditional Theme" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">Traditional</h3>
+            <p class="text-gray-600 text-sm">Warm tones, classic details, and timeless layouts.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&w=600&q=80" alt="Contemporary Theme" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">Contemporary</h3>
+            <p class="text-gray-600 text-sm">A blend of modern and classic, with creative finishes.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Material Comparison -->
+      <section id="comparison" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Modular Kitchen Material Comparison</h2>
+        <div class="overflow-x-auto">
+          <table class="min-w-full bg-white rounded-xl shadow text-sm mb-4">
+            <thead>
+              <tr class="bg-green-100 text-green-700">
+                <th class="px-3 py-2">Material</th>
+                <th class="px-3 py-2">Aesthetics</th>
+                <th class="px-3 py-2">Strength</th>
+                <th class="px-3 py-2">Affordability</th>
+                <th class="px-3 py-2">Resistance</th>
+                <th class="px-3 py-2">Customisation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border px-3 py-2">Particle Board</td>
+                <td class="border px-3 py-2">Basic, smooth</td>
+                <td class="border px-3 py-2">Low</td>
+                <td class="border px-3 py-2">Cheapest</td>
+                <td class="border px-3 py-2">Low (moisture sensitive)</td>
+                <td class="border px-3 py-2">Limited</td>
+              </tr>
+              <tr>
+                <td class="border px-3 py-2">MDF</td>
+                <td class="border px-3 py-2">Smooth, paintable</td>
+                <td class="border px-3 py-2">Medium</td>
+                <td class="border px-3 py-2">Affordable</td>
+                <td class="border px-3 py-2">Moderate</td>
+                <td class="border px-3 py-2">Good</td>
+              </tr>
+              <tr>
+                <td class="border px-3 py-2">Plywood</td>
+                <td class="border px-3 py-2">Premium, wood-like</td>
+                <td class="border px-3 py-2">High</td>
+                <td class="border px-3 py-2">Expensive</td>
+                <td class="border px-3 py-2">High (moisture/scratch)</td>
+                <td class="border px-3 py-2">Excellent</td>
+              </tr>
+              <tr>
+                <td class="border px-3 py-2">HDHMR</td>
+                <td class="border px-3 py-2">Glossy, smooth</td>
+                <td class="border px-3 py-2">Very High</td>
+                <td class="border px-3 py-2">Expensive</td>
+                <td class="border px-3 py-2">Very High</td>
+                <td class="border px-3 py-2">Limited (hard to shape)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="text-gray-600 text-sm mb-2">Choose materials based on your budget, durability needs, and design preferences.</div>
+      </section>
+      <!-- Kitchen Components -->
+      <section id="components" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Kitchen Components</h2>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+          <li><b>MR Plywood:</b> Moisture-resistant, strong, and durable for cabinets.</li>
+          <li><b>BWP/BWR Plywood:</b> High water resistance, ideal for wet areas.</li>
+          <li><b>HDHMR:</b> High-density, tough, and water-resistant.</li>
+          <li><b>HDF:</b> Affordable, strong, and sleek for interiors.</li>
+          <li><b>MDF:</b> Smooth, dense, and good for carved designs.</li>
+          <li><b>Particle Board:</b> Eco-friendly, affordable, and smooth.</li>
+        </ul>
+        <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&w=900&q=80" alt="Kitchen Materials" class="rounded-xl shadow-lg w-full h-56 object-cover mt-6">
+      </section>
+      <!-- False Ceiling Designs -->
+      <section id="falseceiling" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Kitchen False Ceiling Designs</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&w=600&q=80" alt="Tray Ceiling" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">Tray Ceiling</h3>
+            <p class="text-gray-600 text-sm">Modern, layered look for a stylish kitchen.</p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+            <img src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&w=600&q=80" alt="POP Ceiling" class="rounded-lg w-full h-28 object-cover mb-2">
+            <h3 class="font-semibold text-lg mb-1">POP Ceiling</h3>
+            <p class="text-gray-600 text-sm">Trendy and elegant, keeps clutter to a minimum.</p>
+          </div>
+        </div>
+        <div class="text-gray-600 text-sm mt-4">Explore PVC, fiberglass, and wooden ceiling options for more variety.</div>
+      </section>
+      <!-- Standard Dimensions -->
+      <section id="dimensions" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Standard Modular Kitchen Design Dimensions</h2>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <li><b>Standard kitchen size:</b> 8 ft wide x 10 ft long</li>
+          <li><b>Countertop height:</b> 34–36 inches</li>
+          <li><b>Base cabinet depth:</b> 24 inches</li>
+          <li><b>Wall cabinet depth:</b> 12–15 inches</li>
+          <li><b>Work triangle:</b> Sink, stove, and fridge should form a triangle for efficiency</li>
+        </ul>
+        <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl mt-4 text-green-700">
+          <b>Tip:</b> Ensure enough clearance for easy movement and ergonomic comfort.
+        </div>
+      </section>
+      <!-- Organization Ideas -->
+      <section id="organization" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Creative Kitchen Organization Ideas</h2>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+          <li>Stretch cabinetry to the ceiling for extra storage.</li>
+          <li>Install pot racks over the sink or stove.</li>
+          <li>Use in-cabinet shelving to double shelf space.</li>
+          <li>Add drawers on both sides of islands.</li>
+          <li>Opt for open shelves for easy access.</li>
+          <li>Use baskets, bins, and drawer separators.</li>
+          <li>Utilize under-sink space for less-used items.</li>
+        </ul>
+      </section>
+      <!-- Safety Rules -->
+      <section id="safety" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Safety Rules for Kitchen</h2>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+          <li>Wash hands before preparing food.</li>
+          <li>Wear appropriate clothing and shoes.</li>
+          <li>Handle hot dishes with care.</li>
+          <li>Use separate chopping boards for meat, fruits, and vegetables.</li>
+          <li>Learn about fire hazards and extinguisher use.</li>
+          <li>Store food properly to keep it fresh and safe.</li>
+        </ul>
+      </section>
+      <!-- Vastu Tips -->
+      <section id="vastu" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Vastu Tips for Modular Kitchens</h2>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+          <li>Place sinks and drains in the northeast direction.</li>
+          <li>Cooking appliances should be in the southeast.</li>
+          <li>Refrigerator and storage in the southwest for prosperity.</li>
+          <li>Use bright colors like green, yellow, and blue.</li>
+          <li>Windows and exhausts should be in the east.</li>
+          <li>Kitchen entrance should be in the east.</li>
+        </ul>
+      </section>
+      <!-- FAQs -->
+      <section id="faqs" class="scroll-mt-28">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <details class="bg-white rounded-lg shadow p-4">
+            <summary class="font-semibold cursor-pointer">What are the rules for designing a kitchen?</summary>
+            <p class="mt-2 text-gray-700">Follow the work triangle, ensure multi-functional space, keep clear doorways, focus on ergonomics, and provide enough counter space and seating.</p>
+          </details>
+          <details class="bg-white rounded-lg shadow p-4">
+            <summary class="font-semibold cursor-pointer">What should be the standard size of a kitchen?</summary>
+            <p class="mt-2 text-gray-700">A standard kitchen is about 8 ft wide x 10 ft long, with enough space for comfortable movement and work.</p>
+          </details>
+          <details class="bg-white rounded-lg shadow p-4">
+            <summary class="font-semibold cursor-pointer">What are the types of kitchen layouts?</summary>
+            <p class="mt-2 text-gray-700">Straight, Parallel, L-Shaped, U-Shaped, Island, and Peninsula layouts are common options.</p>
+          </details>
+          <details class="bg-white rounded-lg shadow p-4">
+            <summary class="font-semibold cursor-pointer">How can Vastu dosh of the kitchen be corrected?</summary>
+            <p class="mt-2 text-gray-700">Place cooking appliances in the southeast, sinks in the northeast, and use bright colors. Consult an expert for more tips.</p>
+          </details>
+          <details class="bg-white rounded-lg shadow p-4">
+            <summary class="font-semibold cursor-pointer">How can I organize my small kitchen neatly?</summary>
+            <p class="mt-2 text-gray-700">Declutter, use vertical storage, open shelves, corner cabinets, and under-sink space for efficient organization.</p>
+          </details>
+        </div>
+      </section>
+      <!-- Call to Action -->
+      <section id="cta" class="scroll-mt-28 text-center">
+        <h2 class="text-2xl font-bold mb-3 text-green-500">Ready to Design Your Dream Kitchen?</h2>
+        <p class="text-lg text-gray-700 mb-6">Contact our expert team for a free consultation and personalized modular kitchen design for your home.</p>
+        <a href="../index.html#contact" class="inline-block bg-pink-400 text-white font-semibold px-8 py-3 rounded-full shadow hover:bg-pink-300 transition text-lg">BOOK FREE CONSULTATION</a>
+      </section>
+    </article>
+  </main>
+  <!-- Support Chat Box (Bottom Right) -->
+  <div id="support-chat" class="fixed z-50 bottom-4 right-4 sm:bottom-6 sm:right-6 flex flex-col items-end">
+    <button id="chat-toggle" class="bg-indigo-600 hover:bg-indigo-700 text-white rounded-full shadow-lg p-3 flex items-center justify-center transition-all duration-300 focus:outline-none group chat-float" aria-label="Open Support Chat">
+      <span class="chat-tooltip absolute -top-10 left-1/2 -translate-x-1/2 bg-black text-white text-xs rounded px-3 py-1 opacity-0 group-hover:opacity-100 group-focus:opacity-100 pointer-events-none whitespace-nowrap z-50 shadow-lg transition-all duration-300 transform group-hover:-translate-y-2 group-hover:scale-105 group-focus:-translate-y-2 group-focus:scale-105 max-w-[90vw] text-center" style="white-space:nowrap;">Chat with Support</span>
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2z"/></svg>
+    </button>
+    <div id="chat-box" class="hidden mt-2 w-80 max-w-xs bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden animate-fadeIn">
+      <div class="bg-indigo-600 text-white px-4 py-3 font-semibold flex items-center justify-between">
+        <span>Support Chat</span>
+        <button id="chat-close" class="text-white hover:text-gray-200 focus:outline-none" aria-label="Close Chat">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="p-4 h-48 overflow-y-auto text-sm text-gray-700 flex flex-col gap-2" id="chat-messages">
+        <div class="bg-gray-100 rounded-lg px-3 py-2 self-start">Hi! 👋 How can we help you today?</div>
+      </div>
+      <form id="chat-form" class="flex border-t border-gray-200">
+        <input type="text" id="chat-input" class="flex-1 px-3 py-2 text-sm border-none focus:ring-0 rounded-bl-2xl" placeholder="Type your message..." autocomplete="off" />
+        <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-br-2xl">Send</button>
+      </form>
+    </div>
+  </div>
+  <!-- WhatsApp Floating Button (Bottom Left) -->
+  <a href="https://wa.me/917905134325" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"
+     class="fixed z-50 bottom-4 left-4 sm:bottom-6 sm:left-6 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg p-3 sm:p-4 flex items-center justify-center transition-all duration-300 group whatsapp-float"
+     onmouseover="this.classList.add('animate-none')" onmouseout="this.classList.remove('animate-none')">
+    <span class="whatsapp-tooltip absolute -top-10 left-1/2 -translate-x-1/2 bg-black text-white text-xs rounded px-3 py-1 opacity-0 group-hover:opacity-100 pointer-events-none z-50 shadow-lg transition-all duration-300 transform group-hover:-translate-y-2 group-hover:scale-105 max-w-[90vw] text-center" style="white-space:nowrap;">Direct Order With Whatsapp</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-7 sm:w-7" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M20.52 3.48A12.07 12.07 0 0012 0C5.37 0 0 5.37 0 12a11.93 11.93 0 001.67 6.13L0 24l6.37-1.67A11.93 11.93 0 0012 24c6.63 0 12-5.37 12-12a11.93 11.93 0 00-3.48-8.52zM12 22a9.93 9.93 0 01-5.13-1.42l-.37-.22-3.78 1 1-3.78-.22-.37A9.93 9.93 0 012 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.2-7.8c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.28.7.9.86 1.08.16.18.32.2.6.07.28-.14-1.18-.44-2.25-1.41-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.34-.01-.52-.01-.18 0-.48.07-.73.34-.25.27-.97.95-.97 2.3 0 1.35.99 2.65 1.13 2.83.14.18 1.95 2.98 4.74 4.06.66.28 1.18.45 1.58.58.66.21 1.26.18 1.73.11.53-.08 1.65-.67 1.89-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.18-.53-.32z"/>
+    </svg>
+    <span class="sr-only">Chat on WhatsApp</span>
+  </a>
+  <script src="../main.js"></script>
+</body>
+</html> 
